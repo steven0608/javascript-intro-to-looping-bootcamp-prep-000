@@ -19,7 +19,7 @@ function doWhileLoop(array){
 do { function maybeTrue(){
   return Math.random() >= 0.5}}
 
-while (array.length>0&&maybeTrue(array)){
+while (array.length>0&&maybeTrue()){
   array.shift([1])
 }
 return array;
