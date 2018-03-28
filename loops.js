@@ -19,7 +19,7 @@ function whileLoop(n){
 function maybeTrue() {
   return Math.random() >= 0.5}
 function doWhileLoop(array){
-do { delete array}
+do { delete array.elements}
 
 while array.length>0&&maybeTrue();
 return array;
